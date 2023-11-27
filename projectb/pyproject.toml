@@ -2,12 +2,16 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[tool.hatch.metadata]
+allow-direct-references = true
+
+
 [project]
 name = "projectb"
 version = "0.0.1"
 dependencies = [
-  "http://"
+  "projecta @ git+https://github.com/rjekker/achmea-demo/projecta"
 ]
 
 [project.scripts]
-hellob = "https://github.com/rjekker/achmea-demo/projectb"
+hellob = "projectb.hello:main"
