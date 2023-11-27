@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "projectb"
+version = "0.0.1"
+dependencies = [
+  "http://"
+]
+
+[project.scripts]
+hellob = "https://github.com/rjekker/achmea-demo/projectb"
