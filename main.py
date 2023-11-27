@@ -4,6 +4,10 @@ Bla di bla
 """
 
 
+def bla():
+    pass
+
+
 def print_hi(name: str) -> None:
     """Deze functie print hallo"""
     print("hallo")
